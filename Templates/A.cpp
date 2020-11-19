@@ -33,13 +33,16 @@ using namespace std;
 #define LL long long int
 #define vt vector
 
-int main() {
+int main()
+{
   string s;
   int count = 0;
 
-  for (char c:s) {
-    if (isupper(c)) c++;
+  for (char c : s)
+  {
+    if (isupper(c))
+      c++;
   }
   if (count == size(s))
-  return 0;
+    return 0;
 }
